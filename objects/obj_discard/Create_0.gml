@@ -1,0 +1,2 @@
+player = obj_player;
+
