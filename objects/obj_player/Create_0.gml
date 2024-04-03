@@ -116,7 +116,7 @@ _field_y_coor[0] = 486;
 
 //discard variables
 
-for (i = 0; i < 24; i++) {
+for (i = 0; i < 27; i++) {
 	discard[i] = 0;
 }
 _discard_count = 0;
@@ -142,3 +142,9 @@ _j = 0;
 
 _alarm4loop = 0;
 _i = 0;
+_alarm5loop = 0;
+
+//can the player act?
+global._can_select = false;
+
+_ignorethis = false;

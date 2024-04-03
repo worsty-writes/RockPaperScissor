@@ -1,8 +1,13 @@
-_selected = true;
+if global._can_select == true {
+	audio_play_sound(snd_flip, 3, false);
+	_selected = true;
 
-global._player_card = self;
+	global._player_card = self;
 
-alarm[2] = 90;
+	alarm[2] = 90;
+	
+	global._can_select = false;
+}
 //for(i = 0; i < 1; i++) {
 //	if(x - 50 > (player._field_x_coor[i] - _card_width/2 - 50) && x - 50 < (player._field_x_coor[i] + _card_width/2 - 50)) {
 //			if((y - 45 > player._field_y_coor[i] - _card_height/2 - 45)) && y - 45 < (player._field_x_coor[i] + _card_width/2 - 45) {

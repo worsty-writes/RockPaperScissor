@@ -33,3 +33,6 @@ _remove_from_hand = 0;
 
 _discarded = false;
 _returned = false;
+_in_play = true;
+_flashing = false;
+_flashing_restart = true;

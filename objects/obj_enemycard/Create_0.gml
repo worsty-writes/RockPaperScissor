@@ -27,3 +27,6 @@ _card_height = 140;
 
 _discarded = false;
 _returned = false;
+_in_play = true;
+_flashing = false;
+_flashing_restart = true;

@@ -13,12 +13,15 @@
   "For3D":false,
   "frames":[
     {"$GMSpriteFrame":"","%Name":"27179bc8-4051-45a9-a898-f6c4df66fa89","name":"27179bc8-4051-45a9-a898-f6c4df66fa89","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"9c92d837-f612-4e63-9f46-935d4e4e54ac","name":"9c92d837-f612-4e63-9f46-935d4e4e54ac","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":140,
   "HTile":false,
   "layers":[
+    {"$GMImageLayer":"","%Name":"a2dbdab0-eaf9-410f-9339-0d71d5988b61","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"a2dbdab0-eaf9-410f-9339-0d71d5988b61","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"5148fee4-0acc-44ee-b38b-492e63eeec82","blendMode":0,"displayName":"Layer 2","isLocked":false,"name":"5148fee4-0acc-44ee-b38b-492e63eeec82","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"b0383428-df92-4123-a2ff-36d7cface778","blendMode":0,"displayName":"default","isLocked":false,"name":"b0383428-df92-4123-a2ff-36d7cface778","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_cardgrass",
@@ -49,7 +52,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":1.0,
+    "length":2.0,
     "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -59,7 +62,7 @@
     },
     "name":"spr_cardgrass",
     "playback":1,
-    "playbackSpeed":30.0,
+    "playbackSpeed":1.0,
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
@@ -71,6 +74,9 @@
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"27179bc8-4051-45a9-a898-f6c4df66fa89","path":"sprites/spr_cardgrass/spr_cardgrass.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"1e550eff-d854-4099-8253-631162fb08af","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9c92d837-f612-4e63-9f46-935d4e4e54ac","path":"sprites/spr_cardgrass/spr_cardgrass.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"2f233c7e-bc42-468d-946a-3ba2c64b4853","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

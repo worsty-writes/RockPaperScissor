@@ -16,6 +16,7 @@ function scr_draw(_num){
 	}
 	
 	// create card object for each card in hand
+	audio_play_sound(snd_flip, 3, false);
 	_hand_card[_hand_count - 1] = instance_create_layer(_deck_x, _deck_y, layer_get_id("Instances"), obj_card);
 	with(_hand_card[_hand_count - 1]) {
 		_card_drawn = true;

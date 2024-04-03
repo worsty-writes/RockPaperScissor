@@ -3,7 +3,7 @@ if _card_drawn == true {
 		alarm[0] = 1;
 	}
 }
-if _discarded == false {
+if _in_play == true {
 	if _card_in_hand == true {
 		_x_pos = obj_opponent.x - (player._enemy_hand_count/2)*(_card_width+10) + (_card_width/2)  + (3+_card_width)*_hand_position;
 		if _selected == false {
@@ -34,7 +34,7 @@ if _discarded == false {
 if _discarded == true {
 	sprite_index = _sprite_array[_card_num];
 	if (x != obj_discard.x && y != obj_discard.y) {
-		move_towards_point(obj_discard.x, obj_discard.y, 10);
+		move_towards_point(obj_discard.x, obj_discard.y, 30);
 	}
 	if distance_to_point(obj_discard.x, obj_discard.y) < 1 {
 		x = obj_discard.x;
@@ -45,12 +45,18 @@ if _discarded == true {
 if _returned = true {
 	sprite_index = spr_cardbacking
 	if (x != obj_deck.x && y != obj_deck.y) {
-		move_towards_point(obj_deck.x, obj_deck.y, 30);
+		move_towards_point(obj_deck.x, obj_deck.y, 50);
 	}
 	if distance_to_point(obj_deck.x, obj_deck.y) < 1 {
 		x = obj_deck.x;
 		y = obj_deck.y;
 		speed = 0;
 		instance_destroy();
+	}
+}
+if _flashing == true {
+	if _flashing_restart == true {
+		alarm[3] = 5;
+		_flashing_restart = false;
 	}
 }
