@@ -1,5 +1,3 @@
-_ignorethis = true;
-
 if _alarm5loop < 24 {
 	audio_play_sound(snd_flip, 3, false);
 	discard[_i]._discarded = false;

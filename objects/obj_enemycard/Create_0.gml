@@ -1,5 +1,13 @@
 scr_init_spray_array();
 
+_randomx = irandom_range(-10, 10);
+_randomy = irandom_range(-10, 10);
+
+show_debug_message("random x" + string(_randomx));
+show_debug_message("random y" + string(_randomy));
+
+depth = global._card_depth;
+
 // will be true when animation playing
 card_drawn = false;
 

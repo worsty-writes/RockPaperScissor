@@ -142,3 +142,7 @@ _alarm5loop = 0;
 
 //can the player act?
 global._can_select = false;
+
+global._card_depth = 250
+
+_show_scores = true;

@@ -1,6 +1,7 @@
 _result = scr_win_or_lose(global._player_card, _enemy_hand_card[_enemy_play]);
 
 if _result == "TIE" {
+	audio_play_sound(snd_boowomp, 3, false);
 	_opponent_score += 0;
 	_player_score += 0;
 }
@@ -17,9 +18,4 @@ if _result == "LOSE" {
 	_player_score += 0;
 }
 
-if _deck_count > 3 {
-	alarm[4] = 60;
-}
-if _deck_count == 3 {
-	alarm[5] = 60;
-}
+alarm[4] = 60;

@@ -34,11 +34,11 @@ if _in_play == true {
 if _discarded == true {
 	sprite_index = _sprite_array[_card_num];
 	if (x != obj_discard.x && y != obj_discard.y) {
-		move_towards_point(obj_discard.x, obj_discard.y, 30);
+		move_towards_point(obj_discard.x + _randomx, obj_discard.y + _randomy, 30);
 	}
-	if distance_to_point(obj_discard.x, obj_discard.y) < 1 {
-		x = obj_discard.x;
-		y = obj_discard.y;
+	if distance_to_point(obj_discard.x + _randomx, obj_discard.y + _randomy) < 1 {
+		x = obj_discard.x + _randomx;
+		y = obj_discard.y + _randomy;
 		speed = 0;
 	}
 }

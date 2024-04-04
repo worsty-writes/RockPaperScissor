@@ -1,1 +1,1 @@
-audio_play_sound(snd_gymtheme, 2, false);
+audio_play_sound(snd_gymleader, 2, true);
