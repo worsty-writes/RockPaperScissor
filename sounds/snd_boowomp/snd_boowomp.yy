@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":2.011429,
+  "duration":0.574694,
   "name":"snd_boowomp",
   "parent":{
     "name":"Sounds",
